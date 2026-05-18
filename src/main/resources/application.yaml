@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ai-generator-poc
+  ai:
+    openai:
+      api-key: sk-abcdef1234567890
