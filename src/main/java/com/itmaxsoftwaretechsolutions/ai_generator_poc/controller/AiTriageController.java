@@ -54,6 +54,7 @@ public class AiTriageController {
             - If the image content contradicts the event type, prioritize the image content for triage decisions and note the discrepancy in the summary.   
             - If the image content is inconclusive, rely on the textual event details but note the uncertainty in the summary.
             - If the image content contradicts the event type, lower the confidence score to reflect the inconsistency.
+            - Check also the logic consistency of the event, for example if the event type is "Illegal Parking" but the vehicle is not near a road side, note this in the summary and lower the confidence score.
             - Write the summary and recommended action in point form, using concise language.
 
             Event Details:
